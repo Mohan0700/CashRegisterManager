@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 100vh;
+    background-color: #064E3B;
+    margin: auto;
+}
+
+body{
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.description{
+    color: white;
+}
+
+/* label, input, .description, table, #errorMessage, caption{
+    margin: 10px;
+} */
+
+.description ,label , input{
+    margin: 15px;
+}
+
+table,tr,th , td{
+    border : 2px solid #064E3B;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: #A7F3D0;
+    color: #064E3B;
+    margin: auto;
+}
+
+input{
+    padding : 0.7rem;
+    width: 90%;
+}
+
+label{
+    color : #A7F3D0;
+}
+
+#notes-container , #cash-container{
+    display: none;
+}
+
+caption{
+    color: #A7F3D0;
+    margin-bottom: 1rem;
+    font-size: large;
+}
+
+#nextButton , #checkButton{
+    background-color: #A7F3D0;
+    color: #064E3B;
+    border: none;
+    width: 15%;
+}
+.notes{
+    background-color: white;
+    color: #064E3B;
+}
+
+table{
+    width: 95%;
+    table-layout: fixed;
+    margin: 15px;
+}
+
+th,td{
+    word-wrap: break-word;
+}
